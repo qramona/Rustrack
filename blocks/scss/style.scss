@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@mixin FiraSansTemplate{
+    font-family: "Fira Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15.4px;
+}
+@mixin RobotoTemplate{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+@mixin ContainerSmallMixin(){
+    padding: 0 1em;
+}
+p,a,h1,h2,h3,h4,h5,span{
+
+}
+a{
+    text-decoration: none;
+    font-family: "Fira Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: #000;
+
+}
+p{
+    font-family: "Fira Sans";
+    font-weight: 400;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+button{
+    background: transparent;
+    border: none;
+}
+input{
+    outline: none;
+}
+
+/*burger-menu*/
+
+/*media-requests*/
+@media screen and (min-width: 1600px) {
+
+}
+@media screen and (min-width: 1600px) {
+
+}
+@media screen and (min-width: 1400px) {
+
+}
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (min-width: 992px) {
+
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 576px) {
+
+}

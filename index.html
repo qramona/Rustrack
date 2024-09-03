@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>website-template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--swiper.css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!--    fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
+    <!--    personal css-->
+    <link rel="stylesheet" href="blocks/scss/style.css">
+    <link rel="stylesheet" href="blocks/assets/filtration-assets/scss/filtration.css">
+    <link rel="stylesheet" href="blocks/assets/footer-assets/scss/footer.css">
+    <link rel="stylesheet" href="blocks/assets/header-assets/scss/header.css">
+    <link rel="stylesheet" href="blocks/assets/main-assets/scss/main.css">
+    <link rel="stylesheet" href="blocks/assets/questions-assets/scss/questions.css">
+    <link rel="stylesheet" href="blocks/assets/slider-assets/scss/slider.css">
+
+</head>
+<body>
+<div class="modal_menu">
+    <div class="close">
+        <div class="close__wrapper">
+            <p>Фильтры (99+)</p>
+            <img src="blocks/assets/filtration-assets/CloseLogo.svg" alt="CloseLogo">
+        </div>
+    </div>
+
+    <div class="reset">
+        <button type="button"><img src="blocks/assets/filtration-assets/reset.svg" alt="reset"></button>
+        <p>Сбросить</p>
+    </div>
+
+    <div class="menu__items menu__filtration">
+        <div class="header-filtration">
+            <label>
+                Название фильтра 1
+                <input class="main-filtration__input" type="text" placeholder="Найти">
+
+            </label>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <label class="header-filtration header-filtration2"> Название фильтра2</label>
+            <div class="checkbox-item__wrapper">
+                <div class="checkbox-item__mobile">
+                    <label><input type="checkbox"></label>
+                    <p>5.2</p>
+                </div>
+                <div class="checkbox-item__mobile">
+                    <label><input type="checkbox"></label>
+                    <p>5.2</p>
+                </div>
+                <div class="checkbox-item__mobile">
+                    <label><input type="checkbox"></label>
+                    <p>5.2</p>
+                </div>
+                <div class="checkbox-item__mobile">
+                    <label><input type="checkbox"></label>
+                    <p>5.2</p>
+                </div>
+            </div>
+            <label>
+                Название фильтра 3
+                <input class="main-filtration__input" type="text" placeholder="Найти">
+
+            </label>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="checkbox-item__mobile">
+                <label><input type="checkbox"></label>
+                <p>Название пункта</p>
+            </div>
+            <div class="price-range__wrapper">
+                <div id="slider-range" class="slider-range">
+                    <p class="price-range-p">
+                        <label class="price__label" for="amount"></label>
+                        <input class="price__input amount" type="text" id="amount" readonly="" style="border:0; color:#000000; font-weight:bold; outline: none">
+                    </p>
+                </div>
+            </div>
+            <div class="show-items__wrapper">
+                <button class="show-items" type="button">Показать товары(135)</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<header class="header">
+    <div class="header__section1 header__section">
+        <div class="header__section__wrapper">
+            <div class="Header__Logo">
+                <a href="#"><img src="blocks/assets/header-assets/Logo.svg" alt="Logo-img" class="logo-img"></a>
+                <h1 class="Logo-description"> производство и продажа</br>
+                                                автоспецтехники
+                </h1>
+            </div>
+            <div class="header__timetable">
+                <div class="header__timetable-wrapper">
+                    <div class="timetable"> Время работы
+                        <div class="timetable-tab">
+                           <time class="header__timetable">
+                               Пн-пт: с 8:00 до 18:00
+                           </time>
+                            <time class="header__timetable">
+                                Сб-вс: с 10:00 до 16:00
+                            </time>
+                        </div>
+                    </div>
+                <img src="blocks/assets/header-assets/triangle-menu.svg" alt="triangle-tab" class="triangle-img">
+                </div>
+                <address class="header__address">
+                    г. Нижний Новгород
+                    ул. Торфяная, 35
+                </address>
+            </div>
+            <div class="header__tel-wrapper">
+                <div class="header__tel">Для регионов:  <a href="tel:88007777210">8 (800) 77-77-210</a></div>
+                <div class="header__tel">Нижний Новгород:  <a href="tel:88312250055">8 (831) 225-00-55</a></div>
+            </div>
+            <a href="#" class="header__cellphone">
+                <img src="blocks/assets/header-assets/header__call.svg" alt="header-cellphone">
+            </a>
+        </div>
+    </div>
+    <div class="header__section2 header__section">
+            <div class="nav__header-nav">
+                <ul class="header-ul">
+                    <li class="catalog">
+                        <div class="catalog__wrapper">
+                            <div class="logo-catalog">
+                                <img src="blocks/assets/header-assets/BurgerIcon.svg" alt="Burger-menu">
+                                <p>Каталог</p>
+                            </div>
+
+                        </div>
+                        <div class="header__catalog-selected">
+                            <ul class="catalog-ul">
+                                <li class="catalog-li clickableCatalog">
+                                    <a href="#"><b>Категории</b></a>
+                                    <img src="blocks/assets/header-assets/triangle-menu.svg" alt="triangle">
+                                </li>
+                                <div class="catalog-li__wrapper">
+                                <li class="catalog-li">
+                                    <a href="#">Краны-манипуляторы</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Автофургоны</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Автоэвакуаторы</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Автогидроподъёмники</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Бортовые Автомобили</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Самосвалы</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Автоцистерны</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Автотопливозаправщики</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Крюковые погрузчики</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Продукция в наличии</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Шасси</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#"><p>Смотреть все категории</p></a>
+                                </li>
+                                </div>
+                            </ul>
+                            <ul class="catalog-ul">
+                                <li class="catalog-li clickableCatalog">
+                                    <a href="#"><b>О нас</b></a>
+                                    <img src="blocks/assets/header-assets/triangle-menu.svg" alt="triangle">
+                                </li>
+                                <div class="catalog-li__wrapper">
+                                <li class="catalog-li">
+                                    <a href="#">О компании ООО «Рустрак»</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Новости</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Наши партнёры</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Производство</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Поставщикам и партнёрам</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Отзывы</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Сертификаты</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Вакансии</a>
+                                </li>
+                                <li class="catalog-li">
+                                    <a href="#">Кредит и лизинг</a>
+                                </li>
+                                </div>
+                            </ul>
+                            <ul class="catalog-ul ">
+                                <li class="catalog-li clickableCatalog">
+                                    <a href="#"><b>Медиа</b></a>
+                                    <img src="blocks/assets/header-assets/triangle-menu.svg" alt="triangle">
+                                </li>
+                                <div class="catalog-li__wrapper">
+                                    <li class="catalog-li">
+                                        <a href="#">Фотогалерея</a>
+                                    </li>
+                                    <li class="catalog-li">
+                                        <a href="#">Видео</a>
+                                    </li>
+                                    <li class="catalog-li">
+                                        <a href="#">Материалы для скачивания</a>
+                                    </li>
+                                    <li class="catalog-li">
+                                        <a href="#">Рекламные материалы</a>
+                                    </li>
+                                </div>
+                            </ul>
+                            <div class="header__ul-wrapper">
+                                <ul class="catalog-ul catalog-item">
+                                    <li class="catalog-li">
+                                        <a href="#"><b>Сервис</b></a>
+                                    </li>
+                                </ul>
+                                <ul class="catalog-ul catalog-item">
+                                    <li class="catalog-li">
+                                        <a href="#"><b>Новости</b></a>
+                                    </li>
+                                </ul>
+                                <ul class="catalog-ul catalog-item">
+                                    <li class="catalog-li">
+                                        <a href="#"><b>Контакты</b></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="header-li">
+                        <a href="#" class="header-a">О нас</a>
+                            <img src="blocks/assets/header-assets/triangle-menu.svg" alt="triangle-menu">
+                        <ul class="inserts-ul">
+                            <li class="inserts-li">
+                                <a href="#">О компании ООО «Рустрак»</a>
+                            </li>
+                            <li class="inserts-li">
+                                <a href="#">Новости</a>
+                            </li>
+                            <li class="inserts-li">
+                                <a href="#">Наши партнёры</a>
+                            </li>
+                            <li class="inserts-li">
+                                <a href="#">Производство</a>
+                            </li>
+                            <li class="inserts-li">
+                                <a href="#">Поставщикам и партнёрам</a>
+                            </li>
+                            <li class="inserts-li">
+                                <a href="#">Отзывы</a>
+                            </li>
+                            <li class="inserts-li">
+                                <a href="#">Сертификаты</a>
+                            </li>
+                            <li class="inserts-li">
+                                <a href="#">Вакансии</a>
+                            </li>
+                            <li class="inserts-li">
+                                <a href="#">Кредит и лизинг</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header-li">
+                        <a href="#" class="header-a">Медиа</a>
+                        <img src="blocks/assets/header-assets/triangle-menu.svg" alt="triangle-menu">
+                        <ul class="inserts-ul">
+                            <li class="inserts-li">
+                                <a href="#">Фотогалерея</a>
+                            </li>
+                            <li class="inserts-li">
+                                <a href="#">Видео</a>
+                            </li>
+                            <li class="inserts-li">
+                                <a href="#">Материалы для скачивания</a>
+                            </li>
+                            <li class="inserts-li">
+                                <a href="#">Рекламные материалы</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header-li">
+                        <a href="#" class="header-a">Сервис</a>
+                    </li>
+                    <li class="header-li">
+                        <a href="#" class="header-a">Новости</a>
+                    </li>
+                    <li class="header-li">
+                        <a href="#" class="header-a">Контакты</a>
+                    </li>
+
+                </ul>
+                <div class="catalog-block">
+                    <div class="header__nav-icons">
+                        <div class="header-input">
+                            <label>
+                                <input class="header-loupe" type="text">
+                            </label>
+
+                        </div>
+                        <a href="#" class="header-nav-icons">
+                            <img src="blocks/assets/header-assets/header__basket.svg" alt="header-basket">
+                        </a>
+                        <a href="#" class="header-nav-icons">
+                            <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+</header>
+<section class="page-sections">
+    <div class="catalog-NameItems">
+        <a href="#" class="page-sections__items">Главная /</a>
+        <a href="#" class="page-sections__items">Категории /</a>
+        <a href="#" class="page-sections__items">Название категории</a>
+    </div>
+</section>
+<section class="category-name">
+    <div class="container">
+        <div class="category-name__wrapper">
+            <div class="category-name__section category-block1">
+                <h5 class="category-name-h2">Название категории</h5>
+                <p class="category-name-p">15 682 товаров</p>
+            </div>
+            <div class="category-name__section category-block2">
+                <div class="category-mobile__wrapper">
+                    <button type="button" class="list-filtration settings-mobile" id="filtrationSettings">
+                        <img src="blocks/assets/main-assets/filtration-mobile.svg" alt="filtrationMobile">
+                    </button>
+                    <div class="category-text__wrapper">
+                        <p class="category-name-p">Сортировка: </p>
+                        <b class="category-name-b"> По популярности</b>
+                    </div>
+                </div>
+                <div class="list-filtration__wrapper">
+                    <button type="button" class="list-filtration">
+                        <img src="blocks/assets/filtration-assets/list-filtration.svg" alt="list-filtration">
+                    </button>
+                    <button type="button" class="list-filtration">
+                        <img src="blocks/assets/filtration-assets/blocks-filtration.svg" alt="blocks-filtration">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main-section">
+    <div class="container">
+        <div class="main__wrapper">
+            <div class="main-section1 main-filtration">
+                <div class="main-section1__wrapper">
+                <label>
+                    Название фильтра 1
+                    <input class="main-filtration__input" type="text" placeholder="Найти">
+                </label>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <label class="header-filtration header-filtration2"> Название фильтра2</label>
+                    <div class="checkbox-item__wrapper">
+                        <div class="checkbox-item">
+                            <label><input type="checkbox"></label>
+                            <p>5.2</p>
+                        </div>
+                        <div class="checkbox-item">
+                            <label><input type="checkbox"></label>
+                            <p>5.2</p>
+                        </div>
+                        <div class="checkbox-item">
+                            <label><input type="checkbox"></label>
+                            <p>5.2</p>
+                        </div>
+                        <div class="checkbox-item">
+                            <label><input type="checkbox"></label>
+                            <p>5.2</p>
+                        </div>
+                    </div>
+
+                <label>
+                    Название фильтра 3
+                    <input class="main-filtration__input" type="text" placeholder="Найти">
+                </label>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                <div class="checkbox-item">
+                    <label><input type="checkbox"></label>
+                    <p>Название пункта</p>
+                </div>
+                    <div class="price-range__wrapper">
+                        <div id="slider-range1" class="slider-range">
+                            <p class="price-range-p price-range-p1">
+                                <label class="price__label" for="amount"></label>
+                                <input class="price__input amount" type="text" id="amount1" readonly="" style="border:0; color:#000000; font-weight:bold; outline: none;background: #ffffff">
+                            </p>
+                        </div>
+                    </div>
+                <button class="show-items" type="button">Показать товары(135)</button>
+
+                    <button class="filtration-kp">
+                        <img src="blocks/assets/filtration-assets/KP-heart.svg" alt="KP-heart">
+                        <p class="filtration__kp-p">Получить КП</p>
+                    </button>
+            </div>
+            </div>
+            <div class="main-section2">
+                <div class="main__cars__wrapper">
+                    <div class="cars__section__wrapper">
+                        <div class="car-item">
+                            <div class="car-background car1">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="car-item">
+                            <div class="car-background car2">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="car-item">
+                            <div class="car-background car3">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="car-item">
+                            <div class="car-background car4">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="car-item">
+                            <div class="car-background car5">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="car-item">
+                            <div class="car-background car6">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="car-item">
+                            <div class="car-background car0">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="car-item">
+                            <div class="car-background car0">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="car-item">
+                            <div class="car-background car0">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="car-item">
+                            <div class="car-background car0">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="car-item">
+                            <div class="car-background car0">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="car-item">
+                            <div class="car-background car0">
+                                <div class="car-icons">
+                                    <span class="car-inStocks">В наличии</span>
+                                    <button class="fav-icon" type="button">
+                                        <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="car-description">
+                                ISUZU NPR 75 (ELF 7.5) с
+                                изотермическим фургоном из
+                                сэндвич панелей и гидр...
+                            </p>
+                            <div class="car-price">от 352 000₽</div>
+                            <div class="car-footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <div class="car-getKP">
+                                    <p class="car-getKP-p">Получить КП</p>
+                                    <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cars__section__wrapper">
+                    <div class="car-item">
+                        <div class="car-background car0">
+                            <div class="car-icons">
+                                <span class="car-inStocks">В наличии</span>
+                                <button class="fav-icon" type="button">
+                                    <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                </button>
+                            </div>
+                        </div>
+                        <p class="car-description">
+                            ISUZU NPR 75 (ELF 7.5) с
+                            изотермическим фургоном из
+                            сэндвич панелей и гидр...
+                        </p>
+                        <div class="car-price">от 352 000₽</div>
+                        <div class="car-footer">
+                            <button class="car-learnMore">Подробнее</button>
+                            <div class="car-getKP">
+                                <p class="car-getKP-p">Получить КП</p>
+                                <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="car-item">
+                        <div class="car-background car0">
+                            <div class="car-icons">
+                                <span class="car-inStocks">В наличии</span>
+                                <button class="fav-icon" type="button">
+                                    <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                </button>
+                            </div>
+                        </div>
+                        <p class="car-description">
+                            ISUZU NPR 75 (ELF 7.5) с
+                            изотермическим фургоном из
+                            сэндвич панелей и гидр...
+                        </p>
+                        <div class="car-price">от 352 000₽</div>
+                        <div class="car-footer">
+                            <button class="car-learnMore">Подробнее</button>
+                            <div class="car-getKP">
+                                <p class="car-getKP-p">Получить КП</p>
+                                <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="car-item">
+                        <div class="car-background car0">
+                            <div class="car-icons">
+                                <span class="car-inStocks">В наличии</span>
+                                <button class="fav-icon" type="button">
+                                    <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                </button>
+                            </div>
+                        </div>
+                        <p class="car-description">
+                            ISUZU NPR 75 (ELF 7.5) с
+                            изотермическим фургоном из
+                            сэндвич панелей и гидр...
+                        </p>
+                        <div class="car-price">от 352 000₽</div>
+                        <div class="car-footer">
+                            <button class="car-learnMore">Подробнее</button>
+                            <div class="car-getKP">
+                                <p class="car-getKP-p">Получить КП</p>
+                                <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="car-item">
+                        <div class="car-background car0">
+                            <div class="car-icons">
+                                <span class="car-inStocks">В наличии</span>
+                                <button class="fav-icon" type="button">
+                                    <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                </button>
+                            </div>
+                        </div>
+                        <p class="car-description">
+                            ISUZU NPR 75 (ELF 7.5) с
+                            изотермическим фургоном из
+                            сэндвич панелей и гидр...
+                        </p>
+                        <div class="car-price">от 352 000₽</div>
+                        <div class="car-footer">
+                            <button class="car-learnMore">Подробнее</button>
+                            <div class="car-getKP">
+                                <p class="car-getKP-p">Получить КП</p>
+                                <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="car-item">
+                        <div class="car-background car0">
+                            <div class="car-icons">
+                                <span class="car-inStocks">В наличии</span>
+                                <button class="fav-icon" type="button">
+                                    <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                </button>
+                            </div>
+                        </div>
+                        <p class="car-description">
+                            ISUZU NPR 75 (ELF 7.5) с
+                            изотермическим фургоном из
+                            сэндвич панелей и гидр...
+                        </p>
+                        <div class="car-price">от 352 000₽</div>
+                        <div class="car-footer">
+                            <button class="car-learnMore">Подробнее</button>
+                            <div class="car-getKP">
+                                <p class="car-getKP-p">Получить КП</p>
+                                <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="car-item">
+                        <div class="car-background car0">
+                            <div class="car-icons">
+                                <span class="car-inStocks">В наличии</span>
+                                <button class="fav-icon" type="button">
+                                    <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                </button>
+                            </div>
+                        </div>
+                        <p class="car-description">
+                            ISUZU NPR 75 (ELF 7.5) с
+                            изотермическим фургоном из
+                            сэндвич панелей и гидр...
+                        </p>
+                        <div class="car-price">от 352 000₽</div>
+                        <div class="car-footer">
+                            <button class="car-learnMore">Подробнее</button>
+                            <div class="car-getKP">
+                                <p class="car-getKP-p">Получить КП</p>
+                                <img src="blocks/assets/main-assets/KP-download.svg" alt="KP-download">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="ShowMore-Section">
+                    <div class="container">
+                        <div class="showMore">
+                            <button class="main__showMore-btn">
+                                Показать еще
+                            </button>
+                            <div class="main__pages">
+                                <button class="left"><img src="blocks/assets/main-assets/left.svg" alt="left"><p class="left-p">Назад</p></button>
+                                <div class="ShowMore__pagesNumber">
+                                    <p>1</p>
+                                    <p>...</p>
+                                    <p>5</p>
+                                    <p>6</p>
+                                    <p>7</p>
+                                    <p>...</p>
+                                    <p>15</p>
+                                </div>
+                                <button class="right"><img src="blocks/assets/main-assets/right.svg" alt="right"><p class="right-p">Дальше</p></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+
+</section>
+
+<section class="SimilarItems-Section">
+    <div class="container">
+     <h5 class="SimilarItem-title">Похожие товары</h5>
+        <div class="similarItem__slider">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider__wrapper">
+                            <div class="slider-background">
+                                <span class="car-inStocks car-slider">В наличии</span>
+                            </div>
+                            <p class="slider__description">HYUNDAI HD 120 бортовой
+                                с каркасом и тентом
+                            </p>
+                            <div class="slider__footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <button class="fav-icon fav-icon__slider" type="button">
+                                    <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider__wrapper">
+                            <div class="slider-background">
+                                <span class="car-inStocks car-slider">В наличии</span>
+                            </div>
+                            <p class="slider__description">HYUNDAI HD 120 бортовой
+                                с каркасом и тентом
+                            </p>
+                            <div class="slider__footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <button class="fav-icon fav-icon__slider" type="button">
+                                    <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider__wrapper">
+                            <div class="slider-background">
+                                <span class="car-inStocks car-slider">В наличии</span>
+                            </div>
+                            <p class="slider__description">HYUNDAI HD 120 бортовой
+                                с каркасом и тентом
+                            </p>
+                            <div class="slider__footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <button class="fav-icon fav-icon__slider" type="button">
+                                    <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider__wrapper">
+                            <div class="slider-background">
+                                <span class="car-inStocks car-slider">В наличии</span>
+                            </div>
+                            <p class="slider__description">HYUNDAI HD 120 бортовой
+                                с каркасом и тентом
+                            </p>
+                            <div class="slider__footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <button class="fav-icon fav-icon__slider" type="button">
+                                    <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider__wrapper">
+                            <div class="slider-background">
+                                <span class="car-inStocks car-slider">В наличии</span>
+                            </div>
+                            <p class="slider__description">HYUNDAI HD 120 бортовой
+                                с каркасом и тентом
+                            </p>
+                            <div class="slider__footer">
+                                <button class="car-learnMore">Подробнее</button>
+                                <button class="fav-icon fav-icon__slider" type="button">
+                                    <img src="blocks/assets/main-assets/favFileld.svg" alt="fav-icon">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="question-section__wrapper">
+<section class="question-section">
+    <div class="container">
+        <div class="question__wrapper">
+            <div class="question__block1">
+                <div class="question__title-desc">
+                    <h5 class="question-title">ОСТАЛИСЬ ВОПРОСЫ?</h5>
+                    <p class="question-description">Оставьте свои контактные данные, и мы презвоним вам в ближайшее время</p>
+                </div>
+                <div class="question__input-wrapper">
+                <div class="question__inputsPart">
+                    <label class="questionInput">Имя
+                        <input type="text" placeholder="Иван Иванов">
+                    </label>
+                </div>
+
+                <div class="question__inputsPart">
+                    <label class="questionInput">Имя
+                        <input type="tel" placeholder="+7">
+                    </label>
+                </div>
+                    <div class="button-send__wrapper">
+                        <button class="button-send">Отправить</button>
+                    </div>
+                </div>
+            </div>
+            <div class="question__block2">
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper footer__wrapper1">
+          <address class="footer__block1 footer__block">
+              <p class="footer-contacts">Тел/факс:
+                  <a href="tel:88312250055">8(831) 225-00-55</a>
+              </p>
+              <p class="footer-contacts">
+                  <a href="mailto:info@rtrf.ru">info@rtrf.ru</a>
+              </p>
+              <p class="footer-contacts">Нижний Новгород, ул. Торфяная, 35</p>
+              <button class="order-call">Заказать звонок</button>
+          </address>
+          <div class="footer__block2 footer__block">
+              <ul class="footer__ul">Название блока
+                  <li>Категории</li>
+                  <li>Каталог</li>
+                  <li>Избранное</li>
+                  <li>О компании</li>
+                  <li>Вакансии</li>
+              </ul>
+
+              <ul class="footer__ul">Название блока
+                  <li>Категории</li>
+                  <li>Каталог</li>
+                  <li>Избранное</li>
+                  <li>О компании</li>
+                  <li>Вакансии</li>
+              </ul>
+
+              <ul class="footer__ul">Название блока
+                  <li>Категории</li>
+                  <li>Каталог</li>
+                  <li>Избранное</li>
+                  <li>О компании</li>
+                  <li>Вакансии</li>
+              </ul>
+          </div>
+      </div>
+        <div class="footer__wrapper  footer__wrapper2">
+          <div class="footer__block3 footer__block">
+              <a href="#" class="social-media__icon">
+                  <img src="blocks/assets/footer-assets/social-media__facebook.svg" alt="facebook">
+              </a>
+              <a href="#" class="social-media__icon">
+                  <img src="blocks/assets/footer-assets/social-media__tw.svg" alt="twitter">
+              </a>
+              <a href="#" class="social-media__icon">
+                  <img src="blocks/assets/footer-assets/social-media__google.svg" alt="google">
+              </a>
+              <a href="#" class="social-media__icon">
+                  <img src="blocks/assets/footer-assets/social-media__inst.svg" alt="instagram">
+              </a>
+              <a href="#" class="social-media__icon">
+                  <img src="blocks/assets/footer-assets/social-media__youtube.svg" alt="youtube">
+              </a>
+          </div>
+          <div class="footer__block4 footer__block">
+                <p class="footer__copyright">2009 - 2021 © Rus - Trucks<br>
+                Информация на сайте не является публичной офертой и носит исключительно информационный характер</p>
+                <p>Разработка someCompany</p>
+          </div>
+        </div>
+
+    </div>
+</footer>
+</body>
+
+<!--swiper js-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--jquery-->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<!--price-filtration-->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+<!--personal js-->
+<script src="myscript.js" defer></script>
+</html>

@@ -1,0 +1,1234 @@
+@mixin FiraSansTemplate{
+  font-family: "Fira Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15.4px;
+}
+@mixin RobotoTemplate{
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+@mixin ContainerSmallMixin(){
+  padding: 0 1em;
+}
+
+
+.main__wrapper{
+  background: #F9F9F9;
+}
+.category-name-h2{
+  font-family: "Fira Sans";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+}
+.category-name-p{
+  @include FiraSansTemplate;
+  line-height: 23px;
+  opacity: 0.3;
+}
+.category-name-b{
+  @include FiraSansTemplate;
+  color:#000000;
+  line-height: 21px;
+}
+.list-filtration{
+  display: none;
+}
+.settings-mobile{
+  display: flex;
+  background: #FEC80B;
+  padding: 0.5em;
+}
+.category-name__wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  background: #F9F9F9;
+}
+.category-mobile__wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 0;
+}
+.category-text__wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.settings-mobile{
+  img{
+    align-self: center;
+  }
+}
+
+.category-name__section{
+
+}
+.category-block1{
+
+}
+.category-block2{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: end;
+}
+.category-name-p{
+
+}
+.category-name-b{
+
+}
+.main__wrapper{
+  padding: 1em;
+}
+.main-section1{
+  display: none;
+}
+.cars__section__wrapper{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.car-item{
+  display: flex;
+  flex-direction: column;
+  width: 44%;
+  padding: 0.5em;
+  align-items: center;
+}
+.car-background{
+  height:111px;
+  width: 134px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.car0{
+  background-image: url("/blocks/assets/main-assets/car0.svg");
+}
+.car1{
+  background-image: url("/blocks/assets/main-assets/car1.svg");
+}
+.car2{
+  background-image: url("/blocks/assets/main-assets/car2.svg");
+}
+.car3{
+  background-image: url("/blocks/assets/main-assets/car3.svg");
+}
+.car4{
+  background-image: url("/blocks/assets/main-assets/car4.svg");
+}
+.car5{
+  background-image: url("/blocks/assets/main-assets/car5.svg");
+}
+.car6{
+  background-image: url("/blocks/assets/main-assets/car6.svg");
+}
+
+.car-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.car-inStocks{
+  color: #ffffff;
+  background: #86D448;
+  padding: 0.2em 0.3em;
+  border-radius:  0 10px 0 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+.fav-icon{
+
+}
+.car-description{
+  @include FiraSansTemplate;
+  font-size: 14px;
+  padding: 1em 0;
+  text-align: center;
+}
+.car-price{
+  @include FiraSansTemplate;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.5em;
+  text-align: center;
+}
+.car-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: 1s;
+}
+.car-footer:hover{
+  opacity: 0.8;
+}
+.car-learnMore{
+  background: #FEC80B;
+  padding: 1em 1.5em;
+  border-radius: 4px;
+  margin: 0.5em;
+  @include FiraSansTemplate;
+  transition: 1s;
+}
+.car-learnMore:hover{
+  opacity: 0.7;
+}
+.car-getKP{
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  @include FiraSansTemplate;
+  color: #A1A1A1;
+}
+.car-getKP-p{
+  color: #A1A1A1;
+}
+
+.showMore{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.showMore{
+  p{
+
+  }
+}
+.main__showMore-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #FEC80B;
+  padding: 1em;
+  margin: 0 5em;
+  border-radius: 4px;
+  transition: 1s;
+  font-size: 16px;
+  text-wrap: nowrap;
+  transition: 1s;
+};
+.main__showMore-btn:hover{
+  opacity: 0.7;
+}
+.left,.right{
+
+}
+.main__pages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1em 0;
+}
+.ShowMore__pagesNumber{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    padding: 0 0.3em;
+  }
+}
+
+.left-p,.right-p{
+  display: none;
+}
+
+
+@media screen and (min-width: 1600px) {
+  .category-name{
+
+  }
+  .category-name__wrapper{
+
+  }
+  .category-name__section{
+
+  }
+  .category-block1{
+
+  }
+  .category-name-h2{
+
+  }
+  .category-name-p{
+
+  }
+  .category-block2{
+
+  }
+  .category-mobile__wrapper{
+
+  }
+  .list-filtration{
+    img{
+
+    }
+  }
+  .category-text__wrapper{
+
+  }
+  .category-name-p{
+
+  }
+  .category-name-b{
+
+  }
+  .list-filtration__wrapper{
+
+  }
+  .list-filtration{
+    img{
+
+    }
+  }
+  .main-section{
+
+  }
+  .main__wrapper{
+
+  }
+  .main-filtration{
+
+  }
+  .main-section1{
+    label{
+      .main-filtration__input{
+
+      }
+      .main-btn{
+        img{
+
+        }
+      }
+    }
+
+  }
+  .checkbox-item{
+  label{
+    input{
+
+    }
+  }
+    p{
+
+    }
+  }
+  .header-filtration2{
+    .show-items{
+
+    }
+    .filtration-kp{
+      img{
+
+      }
+      p{
+
+      }
+    }
+  }
+  .main-section2{
+
+  }
+  .main__cars__wrapper{
+
+  }
+  .cars__section__wrapper{
+
+  }
+  .car-item{
+
+  }
+
+  .car-background{
+
+  }
+  .car-icons{
+
+  }
+  .car-inStocks{
+
+  }
+.fav-icon{
+  img{
+
+  }
+}
+  .car-description{
+
+  }
+  .car-price{
+
+  }
+  .car-footer{
+
+  }
+  .car-learnMore{
+
+  }
+  .car-getKP{
+
+  }
+  .car-getKP-p{
+    p{
+
+    }
+    img{
+
+    }
+  }
+  .ShowMore-Section{
+
+  }
+  .showMore{
+
+  }
+  .main__showMore-btn{
+
+  }
+  .main__pages{
+
+  }
+  .left,.right{
+      img{
+
+      }
+    p{
+
+    }
+  }
+  .left-p,.right-p{
+
+  }
+.ShowMore__pagesNumber{
+  p{
+
+  }
+}
+
+}
+@media screen and (min-width: 1400px) {
+  .category-name{
+
+  }
+  .category-name__wrapper{
+
+  }
+  .category-name__section{
+
+  }
+  .category-block1{
+
+  }
+  .category-name-h2{
+
+  }
+  .category-name-p{
+
+  }
+  .category-block2{
+
+  }
+  .category-mobile__wrapper{
+
+  }
+  .list-filtration{
+    img{
+
+    }
+  }
+  .category-text__wrapper{
+
+  }
+  .category-name-p{
+
+  }
+  .category-name-b{
+
+  }
+  .list-filtration__wrapper{
+
+  }
+  .list-filtration{
+    img{
+
+    }
+  }
+  .main-section{
+
+  }
+  .main__wrapper{
+
+  }
+  .main-filtration{
+
+  }
+  .main-section1{
+    label{
+      .main-filtration__input{
+
+      }
+      .main-btn{
+        img{
+
+        }
+      }
+    }
+
+  }
+  .checkbox-item{
+    label{
+      input{
+
+      }
+    }
+    p{
+
+    }
+  }
+  .header-filtration2{
+    .show-items{
+
+    }
+    .filtration-kp{
+      img{
+
+      }
+      p{
+
+      }
+    }
+  }
+  .main-section2{
+
+  }
+  .main__cars__wrapper{
+
+  }
+  .cars__section__wrapper{
+
+  }
+  .car-item{
+
+  }
+
+  .car-background{
+
+  }
+  .car-icons{
+
+  }
+  .car-inStocks{
+
+  }
+  .fav-icon{
+    img{
+
+    }
+  }
+  .car-description{
+
+  }
+  .car-price{
+
+  }
+  .car-footer{
+
+  }
+  .car-learnMore{
+
+  }
+  .car-getKP{
+
+  }
+  .car-getKP-p{
+    p{
+
+    }
+    img{
+
+    }
+  }
+  .ShowMore-Section{
+
+  }
+  .showMore{
+
+  }
+  .main__showMore-btn{
+
+  }
+  .main__pages{
+
+  }
+  .left,.right{
+    img{
+
+    }
+    p{
+
+    }
+  }
+  .left-p,.right-p{
+
+  }
+  .ShowMore__pagesNumber{
+    p{
+
+    }
+  }
+
+}
+@media screen and (min-width: 1200px) {
+  .category-name{
+
+  }
+  .category-name__wrapper{
+
+  }
+  .category-name__section{
+
+  }
+  .category-block1{
+
+  }
+  .category-name-h2{
+
+  }
+  .category-name-p{
+
+  }
+  .category-block2{
+
+  }
+  .category-mobile__wrapper{
+
+  }
+  .list-filtration{
+    img{
+
+    }
+  }
+  .category-text__wrapper{
+
+  }
+  .category-name-p{
+
+  }
+  .category-name-b{
+
+  }
+  .list-filtration__wrapper{
+
+  }
+  .list-filtration{
+    img{
+
+    }
+  }
+  .main-section{
+
+  }
+  .main__wrapper{
+
+  }
+  .main-filtration{
+
+  }
+  .main-section1{
+    label{
+      .main-filtration__input{
+
+      }
+      .main-btn{
+        img{
+
+        }
+      }
+    }
+
+  }
+  .checkbox-item{
+    label{
+      input{
+
+      }
+    }
+    p{
+
+    }
+  }
+  .header-filtration2{
+    .show-items{
+
+    }
+    .filtration-kp{
+      img{
+
+      }
+      p{
+
+      }
+    }
+  }
+  .main-section2{
+
+  }
+  .main__cars__wrapper{
+
+  }
+  .cars__section__wrapper{
+
+  }
+  .car-item{
+
+  }
+
+  .car-background{
+
+  }
+  .car-icons{
+
+  }
+  .car-inStocks{
+
+  }
+  .fav-icon{
+    img{
+
+    }
+  }
+  .car-description{
+
+  }
+  .car-price{
+
+  }
+  .car-footer{
+
+  }
+  .car-learnMore{
+
+  }
+  .car-getKP{
+
+  }
+  .car-getKP-p{
+    p{
+
+    }
+    img{
+
+    }
+  }
+  .ShowMore-Section{
+
+  }
+  .showMore{
+
+  }
+  .main__showMore-btn{
+
+  }
+  .main__pages{
+
+  }
+  .left,.right{
+    img{
+
+    }
+    p{
+
+    }
+  }
+  .left-p,.right-p{
+
+  }
+  .ShowMore__pagesNumber{
+    p{
+
+    }
+  }
+
+}
+@media screen and (min-width: 992px) {
+
+  .list-filtration__wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+  .list-filtration{
+    display:flex;
+    border-radius: 100%;
+    background: transparent;
+    padding: 0.5em;
+  }
+  .main-section{
+    display: flex;
+  }
+  .main-section{
+    .container{
+      padding: 1em;
+    }
+  }
+  .main__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+  }
+  .main-section1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+    .main-section1__wrapper{
+      display: flex;
+      flex-direction: column;
+      background: #ffffff;
+      padding: 1em;
+      border-radius: 8px;
+    }
+  label{
+      display: flex;
+      flex-direction: column;
+      font-family: "Fira Sans";
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 19.8px;
+  }
+    input{
+      background-image: url("/blocks/assets/filtration-assets/gray-loupe.svg");
+      background-repeat: no-repeat;
+      background-position: 97%;
+      padding: 1em;
+      margin: 1em;
+      border-radius: 4px;
+      border: solid 1px #A1A1A1;
+    }
+    .checkbox-item{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  .main-section2{
+    width: 70%;
+  }
+  .show-items{
+    color: #000000;
+    background: #FEC80B;
+    padding: 1em 1.5em;
+    border-radius: 4px;
+  }
+  .car-getKP{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    @include FiraSansTemplate;
+    color: #A1A1A1;
+  }
+  .settings-mobile{
+    display: none;
+  }
+  .category-name__wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    justify-content: space-between;
+  }
+  .category-block2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .category-text__wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0.5em;
+  }
+  .car-item{
+    width: 30%;
+  }
+  .filtration-kp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
+}
+@media screen and (min-width: 768px) {
+  .left,.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .ShowMore__pagesNumber{
+    padding: 0 1em;
+  }
+  .left-p,.right-p{
+    display: flex;
+    align-items: center;
+  }
+  .right{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .category-name{
+
+  }
+    .category-name__wrapper {
+      display: flex;
+      flex-direction: row;
+      padding: 1em;
+      justify-content: space-between;
+    }
+
+  .category-name__section{
+
+  }
+  .category-block1{
+
+  }
+  .category-name-h2{
+
+  }
+  .category-name-p{
+
+  }
+  .category-block2{
+
+  }
+  .category-mobile__wrapper{
+
+  }
+  .list-filtration{
+    img{
+
+    }
+  }
+  .category-text__wrapper{
+
+  }
+  .category-name-p{
+
+  }
+  .category-name-b{
+
+  }
+  .list-filtration__wrapper{
+
+  }
+  .list-filtration{
+    img{
+
+    }
+  }
+  .main-section{
+
+  }
+  .main__wrapper{
+    display: flex;
+  }
+  .main-filtration{
+
+  }
+  .main-section1{
+    label{
+      .main-filtration__input{
+
+      }
+      .main-btn{
+        img{
+
+        }
+      }
+    }
+
+  }
+  .checkbox-item{
+    label{
+      input{
+
+      }
+    }
+    p{
+
+    }
+  }
+  .header-filtration2{
+    .show-items{
+
+    }
+    .filtration-kp{
+
+      img{
+
+      }
+      p{
+
+      }
+    }
+  }
+  .main-section2{
+
+  }
+  .main__cars__wrapper{
+
+  }
+  .cars__section__wrapper{
+
+  }
+  .car-item{
+
+  }
+
+  .car-background{
+    width: 250px;
+    height: 250px;
+  }
+  .car-icons{
+
+  }
+  .car-inStocks{
+
+  }
+  .fav-icon{
+    img{
+
+    }
+  }
+  .car-description{
+
+  }
+  .car-price{
+
+  }
+  .car-footer{
+
+  }
+  .car-learnMore{
+
+  }
+  .car-getKP{
+
+  }
+  .car-getKP-p{
+    font-size: 11px;
+    white-space: nowrap;
+    p{
+
+    }
+    img{
+
+    }
+  }
+  .ShowMore-Section{
+
+  }
+  .showMore{
+    padding: 2em 20%;
+  }
+  .main__showMore-btn{
+
+  }
+  .main__pages{
+
+  }
+  .left,.right{
+    img{
+
+    }
+    p{
+
+    }
+  }
+  .left-p,.right-p{
+
+  }
+  .ShowMore__pagesNumber{
+    p{
+
+    }
+  }
+
+}
+@media screen and (min-width: 576px) {
+  .category-name{
+
+  }
+  .category-name__wrapper{
+
+  }
+  .category-name__section{
+
+  }
+  .category-block1{
+
+  }
+  .category-name-h2{
+
+  }
+  .category-name-p{
+
+  }
+  .category-block2{
+
+  }
+  .category-mobile__wrapper{
+
+  }
+  .list-filtration{
+    img{
+
+    }
+  }
+  .category-text__wrapper{
+
+  }
+  .category-name-p{
+
+  }
+  .category-name-b{
+
+  }
+  .list-filtration__wrapper{
+
+  }
+  .list-filtration{
+    img{
+
+    }
+  }
+  .main-section{
+
+  }
+  .main__wrapper{
+
+  }
+  .main-filtration{
+
+  }
+  .main-section1{
+    label{
+      .main-filtration__input{
+
+      }
+      .main-btn{
+        img{
+
+        }
+      }
+    }
+
+  }
+  .checkbox-item{
+    label{
+      input{
+
+      }
+    }
+    p{
+
+    }
+  }
+  .header-filtration2{
+    .show-items{
+
+    }
+    .filtration-kp{
+      img{
+
+      }
+      p{
+
+      }
+    }
+  }
+  .main-section2{
+
+  }
+  .main__cars__wrapper{
+
+  }
+  .cars__section__wrapper{
+
+  }
+  .car-item{
+
+  }
+
+  .car-background{
+    height: 200px;
+    width: 200px;
+  }
+  .car-icons{
+
+  }
+  .car-inStocks{
+
+  }
+  .fav-icon{
+    img{
+
+    }
+  }
+  .car-description{
+
+  }
+  .car-price{
+
+  }
+  .car-footer{
+
+  }
+  .car-learnMore{
+
+  }
+  .car-getKP{
+
+  }
+  .car-getKP-p{
+    p{
+
+    }
+    img{
+
+    }
+  }
+  .ShowMore-Section{
+
+  }
+  .showMore{
+
+  }
+  .main__showMore-btn{
+
+  }
+  .main__pages{
+
+  }
+  .left,.right{
+    img{
+
+    }
+    p{
+
+    }
+  }
+  .left-p,.right-p{
+
+  }
+  .ShowMore__pagesNumber{
+    p{
+
+    }
+  }
+
+}
